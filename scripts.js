@@ -3,7 +3,7 @@ const educacion = [
         imagen: 'unsalogo.jpg',
         lugar: 'Universidad Nacional de Salta ',
         anio: '(2020-2021)',
-        descripcion: 'Primer año de la carrera "Tecnicatura Universitaria en Programación"'
+        descripcion: 'Primer año de la carrera "Tecnicatura Universitaria en Programación".'
     },
     {
         imagen: 'logoAP.png',
@@ -15,7 +15,7 @@ const educacion = [
         imagen: 'logoAP.png',
         lugar: '#YoProgramo ',
         anio: '(2022-2023)',
-        descripcion: 'Segunda etapa de la capacitación del plan nacional de formación en programación "Argentina Programa" .'
+        descripcion: 'Segunda etapa de la capacitación del plan nacional de formación en programación "Argentina Programa".'
     },
     {
         imagen: '1000programadoressalta.png',

@@ -21,7 +21,7 @@ const educacion = [
         imagen: '1000programadoressalta.png',
         lugar: '#1000ProgramadoresSalteños ',
         anio: '(2022)',
-        descripcion: 'Capacitación en Python, en el plan provincial en conjunto con la Universidad nacional de Salta "1000 Programadores Salteños".'
+        descripcion: 'Capacitación en Python, en el plan provincial en conjunto con la Universidad Nacional de Salta "1000 Programadores Salteños".'
     }
 ]
 

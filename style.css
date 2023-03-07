@@ -1,0 +1,250 @@
+:root {
+    --primary-color: white;
+    --font-color: black;
+    --details-color: rgb(255, 38, 0);
+    --argprog-blue: rgb(0, 53, 142);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--details-color);
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+p,
+span,
+h2,
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+/*NAV*/
+.header {
+    box-shadow: 0 4px 5px rgb(12, 12, 12);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    z-index: 100;
+    padding-bottom: 5px;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: end;
+    padding: 0 10px 0 15px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+/*MENU*/
+.menu {
+    display: flex;
+    margin: 0;
+    padding-inline-start: 0;
+}
+
+.menu li {
+    padding: 0px 15px;
+}
+
+.icono {
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 40px;
+    transition-duration: 0.5s;
+}
+
+.icono:hover {
+    background-color: var(--details-color);
+}
+
+/*BANNER*/
+.banner {
+    max-width: 980px;
+    margin: auto;
+}
+
+.portada {
+    width: 100%;
+}
+
+/*SECCIONES*/
+
+.secciones {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--primary-color);
+    border-top: 2px solid #666;
+}
+
+.tituloseccion {
+    color: var(--details-color);
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-align: end;
+}
+
+.subtituloseccion {
+    color: var(--argprog-blue);
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-align: start;
+}
+
+/*ABOUT*/
+.about {
+    position: relative;
+}
+
+.perfil {
+    position: absolute;
+    top: -50px;
+    left: 15px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.nombre {
+    text-align: end;
+    font-weight: 500;
+    font-size: 12px;
+    border-right: 2px solid var(--details-color);
+}
+
+
+.principal {
+    position: relative;
+    text-align: end;
+    padding-top: 20px;
+    min-height: 160px;
+}
+
+h1 {
+    color: var(--details-color);
+    font-weight: 700;
+}
+
+.principal p {
+    font-weight: 500;
+}
+
+@media(min-width: 768px) {
+    .perfil {
+        top: -70px;
+        left: 50px;
+        width: 200px;
+    }
+
+    .nombre {
+        text-align: left;
+        position: relative;
+        align-self: end;
+        border-left: 4px solid var(--details-color);
+        border-right: none;
+    }
+
+    .principal p {
+        font-size: 20px
+    }
+}
+
+/*EDUCACION y EXPERIENCIA*/
+
+.logo,
+.lugar {
+    display: inline-block;
+    padding: 2px;
+}
+
+.logo {
+    width: 60px;
+    max-height: 60px;
+    border-radius: 5px;
+}
+
+.lugar {
+    color: var(--argprog-blue);
+    font-weight: 700;
+}
+
+.lista-item {
+    margin: 20px 0;
+    font-weight: 500;
+    transition-duration: 0.5s;
+}
+
+.lista-item:hover {
+    background-color: var(--details-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+span {
+    color: var(--argprog-blue);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.descripcion {
+    padding: 0 20px;
+}
+
+@media(min-width: 768px) {
+    .logo {
+        width: 100px;
+        max-height: 100px;
+    }
+
+    .lista-item {
+        font-size: 20px;
+    }
+}
+
+/*FOOTER*/
+
+.footer {
+    box-shadow: 0 -4px 5px rgb(12, 12, 12);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding-top: 5px;
+    z-index: 100;
+}
+
+.contenedor {
+    max-width: 980px;
+    min-height: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+h5,
+.correo {
+    color: var(--argprog-blue);
+    font-weight: 700;
+}
+
+.correo:hover {
+    color: var(--details-color)
+}

@@ -174,7 +174,7 @@ h1 {
 
 .logo {
     width: 60px;
-    max-height: 60px;
+    max-height: 35px;
     border-radius: 5px;
 }
 
@@ -208,7 +208,7 @@ span {
 @media(min-width: 768px) {
     .logo {
         width: 100px;
-        max-height: 100px;
+        max-height: 60px;
     }
 
     .lista-item {

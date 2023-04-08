@@ -22,6 +22,18 @@ const educacion = [
         lugar: '#1000ProgramadoresSalteños ',
         anio: '(2022)',
         descripcion: 'Capacitación en Python, en el plan provincial en conjunto con la Universidad Nacional de Salta "1000 Programadores Salteños".'
+    },
+    {
+        imagen: 'AP4.jpg',
+        lugar: '#ArgentinaPrograma 4.0 ',
+        anio: '(2023)',
+        descripcion: 'Capacitación en Desarrolo FrontEnd, cuyo proyecto final fue la creación de este portfolio.'
+    },
+    {
+        imagen: 'AP4.jpg',
+        lugar: '#ArgentinaPrograma 4.0 ',
+        anio: '(2023)',
+        descripcion: 'Capacitación en Inglés Técnico Nivel A.2.2 para desarrolladores de software del Centro Universitario de Idiomas.'
     }
 ]
 
@@ -75,6 +87,10 @@ const hardskills = [
     {
         nombre: 'Github',
         porcentaje: '60'
+    },
+    {
+        nombre: 'Python',
+        porcentaje: '70'
     }
 ]
 

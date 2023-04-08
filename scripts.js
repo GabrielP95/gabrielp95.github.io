@@ -27,7 +27,7 @@ const educacion = [
         imagen: 'AP4.jpg',
         lugar: '#ArgentinaPrograma 4.0 ',
         anio: '(2023)',
-        descripcion: 'Capacitación en Desarrolo FrontEnd, cuyo proyecto final fue la creación de este portfolio.'
+        descripcion: 'Capacitación en Desarrollo FrontEnd, cuyo proyecto final fue la creación de este portfolio.'
     },
     {
         imagen: 'AP4.jpg',

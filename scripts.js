@@ -34,6 +34,12 @@ const educacion = [
         lugar: '#ArgentinaPrograma 4.0 ',
         anio: '(2023)',
         descripcion: 'Capacitación en Inglés Técnico Nivel A.2.2 para desarrolladores de software del Centro Universitario de Idiomas.'
+    },
+    {
+        imagen: 'logoAlkemy.png',
+        lugar: 'Alkemy Campus ',
+        anio: '(2023)',
+        descripcion: 'Cursado del Bootcamp de Web Developer Python con Django, donde trabajé en equipo desarrollando una aplicacion para la gestion de una biblioteca. '
     }
 ]
 
@@ -78,19 +84,23 @@ const hardskills = [
     },
     {
         nombre: 'Bootstrap',
-        porcentaje: '70'
+        porcentaje: '80'
     },
     {
         nombre: 'Angular',
-        porcentaje: '75'
-    },
-    {
-        nombre: 'Github',
         porcentaje: '60'
     },
     {
-        nombre: 'Python',
+        nombre: 'Github',
         porcentaje: '70'
+    },
+    {
+        nombre: 'Python',
+        porcentaje: '80'
+    },
+    {
+        nombre: 'Django',
+        porcentaje: '80'
     }
 ]
 
@@ -117,6 +127,10 @@ const softskills = [
     },
     {
         nombre: 'Ganas de aprender',
+        porcentaje: '100'
+    },
+    {
+        nombre: 'Uso de metodologias ágiles',
         porcentaje: '100'
     }
 ]
